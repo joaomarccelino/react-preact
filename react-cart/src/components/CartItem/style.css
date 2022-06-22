@@ -1,0 +1,29 @@
+.item {
+  margin-bottom: 40px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.item input {
+  width: 40px;
+}
+
+.title p, .amount span {
+  color: #585858;
+}
+
+
+@media (min-width: 600px) {
+  img {
+      width: 150px;
+  }
+  .item {
+      flex-direction: initial;
+      align-items: center;
+      justify-content: space-between;
+  }
+}
